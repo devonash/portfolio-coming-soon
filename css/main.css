@@ -75,5 +75,8 @@ main {
 }
 
 .name {
-    font-family: 'Dancing script', cursive;
+    font-family: 'Kaushan script', cursive;
+    font-weight: 300;
+    font-size: 50px;
 }
+
