@@ -42,11 +42,10 @@ body {
     
     .billboard {
         height: 50vh;
-        z-index: 1;
-        position: relative;
+        width: 100%;
+        position: absolute;
     }
-    .about {
-        z-index: 2;
+    .about-me {
         position: absolute;
     }
     
