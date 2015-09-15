@@ -47,6 +47,8 @@ body {
     }
     .about-me {
         position: absolute;
+        background-color: rgba(67, 191, 191, 0.4);
+        height: 50vh;
     }
     
 }
@@ -57,12 +59,16 @@ body {
         height: 100vh;
     }
     
+    .about-me {
+        height: 100vh;
+    }
+    
 }
 
 main {
     display: block;
 }
 
-.about {
+.about-me {
     padding: 2em;
 }
