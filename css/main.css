@@ -19,7 +19,7 @@ html {
 }
 
 body {
-    background-color: rgba(67, 191, 191, 0.4);
+    background-color: rgba(248, 248, 248, 0.5);
     margin: 0;
 }
 
@@ -34,6 +34,14 @@ body {
     
     .billboard {
         height: 20em;
+        width: 100%;
+        position: absolute;
+    }
+    
+    .about-me {
+        position: absolute;
+        background-color: rgba(67, 191, 191, 0.4);
+        height: 50vh;
     }
     
 }
@@ -41,13 +49,6 @@ body {
 @media only screen and (min-width: 38em) {
     
     .billboard {
-        height: 50vh;
-        width: 100%;
-        position: absolute;
-    }
-    .about-me {
-        position: absolute;
-        background-color: rgba(67, 191, 191, 0.4);
         height: 50vh;
     }
     
@@ -71,4 +72,8 @@ main {
 
 .about-me {
     padding: 2em;
+}
+
+.name {
+    font-family: 'Dancing script', cursive;
 }
