@@ -23,26 +23,24 @@ body {
     margin: 0;
 }
 
+img {
+    width: 100%;
+    display: block;
+}
+    
 .billboard {
-    background-image: url(../img/businesscard-photo-extend.jpg);
     background-size: 100%;
-    background-repeat: no-repeat;
-    height: 25vh;
 }
 
-@media only screen and (min-width: 25em) {
-    
-    .billboard {
-        height: 20em;
-        width: 100%;
-        position: absolute;
-    }
-    
-    .about-me {
+        .about-me {
         position: absolute;
         background-color: rgba(67, 191, 191, 0.4);
-        height: 50vh;
     }
+
+@media only screen and (min-width: 25em) {
+
+    
+
     
 }
 
@@ -50,6 +48,11 @@ body {
     
     .billboard {
         height: 50vh;
+        position: absolute;
+    }
+    
+        .about-me {
+        top: 1em;
     }
     
 }
@@ -60,19 +63,10 @@ body {
         height: 100vh;
     }
     
-    .about-me {
-        height: 100vh;
-    }
+
     
 }
 
-main {
-    display: block;
-}
-
-.about-me {
-    padding: 2em;
-}
 
 .name {
     font-family: 'Kaushan script', cursive;
