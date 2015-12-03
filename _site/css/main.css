@@ -1,0 +1,84 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+    box-sizing: border-box;
+
+    font: normal 100%/1.5 sans-serif;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+    
+.billboard {
+    background-size: 100%;
+}
+
+.about-me {
+    position: absolute;
+    background-color: rgba(255,255,255,0.4);
+    font-weight: 300;
+}
+
+.name {
+    font-family: 'Kaushan script', cursive;
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 1em;
+    margin-top: 0.2em;
+}
+
+.btn {
+    width: 36px;
+    display: inline-block;
+    margin: 0.2em;
+}
+
+.email {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+a:focus {
+    outline: 3px solid black;
+}
+
+@media only screen and (min-width: 38em) {
+    
+    .billboard {
+        height: 50vh;
+        position: absolute;
+    }
+    
+    .about-me {
+        top: 1em;
+    }
+    
+}
+
+@media only screen and (min-width: 60em) {
+    
+    .billboard {
+        height: 100vh;
+    } 
+    
+}
